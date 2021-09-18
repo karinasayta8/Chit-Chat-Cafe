@@ -1,0 +1,130 @@
+@media only screen and (max-width:1140px){
+    .nav-list{
+        flex-direction: column;
+        /* width:700px; */
+    }
+   body{
+       overflow-x: hidden;
+   }
+    .navbar {
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: all 0.7s  ease-out;
+        
+    }
+    .thumbnail img{
+         transform: translate(40%, 8%);
+        height: 600px;
+        width: 850px; 
+         
+
+    }
+    .text-about{
+        font-style: oblique;
+        text-align: center;
+        float: bottom;    
+        margin: 0 0 0 15px;
+        font-size: 45px;
+        font-family: emoji;
+     }
+    .sectionsubtag{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align:justify;
+        position: relative;
+        font-size: 0.5em;
+        transform: translate(80%, 0%);
+       top:5%;
+   }
+   .sectiontag{
+       text-align: center;
+       position:relative;
+       transform: translate(80%, 60%);
+   }
+    .secondhalf img{
+       
+        height: 400px;
+        width:400px;
+    transform: translate(60%, 150%);
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width:100%;
+        min-width: 500px;
+        max-width: 100%;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 92px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+        min-width: 600px;
+    }
+    .text-small{
+       text-align: center;
+    }
+    .text-big{
+        text-align: left;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+        height: 800px;
+    }
+    .text-footer{
+     width:700px;
+    }
+    .contact{
+        width: 700px;
+    }
+    .background{
+        width: 410%;
+        height: 1500px;
+    }
+    .firsthalf{
+        width:100%;
+        display:flex;
+        height: 900px;
+        width:1400px;
+        justify-content:space-around;
+        flex-direction: column;
+        transform: translate(10%, 350%);
+        top: 50%;
+    }
+    .text-big{
+            font-size:45px;
+    }
+    .text-small{
+        font-size: 22px;
+        text-align: justify;
+      } 
+      .services-container{
+        background-color: rgb(243, 239, 234);
+        width:410%;
+      }
+      .contact{
+        background-color: rgb(248, 245, 242);
+        height: 933px;
+        width:410%;
+        color: red;
+    }
+    .text-footer{
+        width:410%;
+    }
+   
+}

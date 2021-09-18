@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Chit Chat Cafe </title>
+   
+    
+</head>
+<body>
+   <nav class="navbar   h-nav-resp"> 
+            <ul class="nav-list   v-class-resp">
+            <div class="logo"><img src="img/img.png" alt="logo"></div>
+            <li><a href= "#home"> Home </a></li>
+            <li><a href= "#About"> About Us </a></li>
+            <li><a href= "#menu"> Cafe Menu </a></li>
+            <li><a href= "#loc"> Location </a></li>
+            <li><a href= "#specialities"> Gallery </a></li>
+            <li><a href= "#Contact">Contact Us</a></li>
+            </ul>
+      
+            <div class="rightNav   v-class-resp">
+                 
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+     <section class="background firstsection" id="home">
+            <div class="box-main" >
+                    <div class="firsthalf">
+                        <p class="text-big">Welcome to Chit  Chat Cafe </p>   
+                        <p  class="text-big"> </p>   
+                         <p class="text-small"><I> You Have reached right destination for great food !! </I>  </p>
+                        
+                           
+                     </div>
+                    <div class="secondhalf">
+                    <img src="img/img.png" alt="cafe"></div>
+            </div>
+        
+     </section> 
+
+     
+     <section class="section" id="About">
+        <div class="paras">
+        <p class="sectiontag text-about "> About the Cafe </p>
+        <p class="sectionsubtag text-small">Our cafe is the best Cafe in the city. T We serve with a great concern about our customer’s 
+           satisfaction and their health. 
+            We serve 100% Vegetarian meal.
+             We are and will always be with our customers and
+             provide good and fresh foods which are rich in required nutrients.
+             we opened our Cafe in 2015 and have grown steadily ever since. Our success is the result of three key ingredients that we never compromise on:
+             </p><p  class="sectionsubtag text-small">The Best Ingredients: Our recipes utilize only the finest and freshest ingredients. Good ingredients are the heart and soul of every dish and we never compromise on quality.</p>
+            <p  class="sectionsubtag text-small"> Good People: Our chefs began their careers in northern India and have mastered the art of cooking authentic Indian cuisine for our clients.</p>
+             <p  class="sectionsubtag text-small">Excellent Service: Our customers are our top priority and we treat each one as if they are our only customer. Indian tradition is to 
+              guest as if they are a living god, and we’re committed to treating all of our guests to a heavenly experience.</p>
+            
+          
+        </div>
+        <div class="thumbnail">
+            <img src="img/img16.png" alt="Laptop" class="imgfluid">
+        </div>
+    </section>
+
+   
+
+    <section class="services-container">
+        <h1 class="center  size"><B>Services</B></h1>
+       <div id="services">
+            
+
+            <div class="box" id="Gallery">
+                <h2 class="center" id="specialities"> Gallery </h2>;
+                <img src="img/img19.png" alt="Full Menu">
+                
+                <h3 class="h-secondary center">  View our gallery of Chit Chat Cafe </h3>
+
+                <div class="button  text-center">
+                    <button class="btn1"  onclick="location.href='ind.html'">View Gallery</button>
+                   </div>
+            </div>
+
+            <div class="box">
+                
+                <h2 class="center" id ="menu"> Full Menu </h2>;
+                <img src="img/img18.png" alt="Full Menu">
+                
+                <h3 class="h-secondary center"> A place where families can enjoy a menu full of variety </h3>
+
+                <div class="button  text-center">
+                    
+                    <button class="btn1" value="clickme" onclick="menu()">View Menu</button>
+                    
+                   </div>
+            </div>
+
+            <div class="box" id="loc">
+                <h2 class="center"> Location </h2>;
+                <img src="img/img17.png" alt="Full Menu">
+                
+                <h3 class="h-secondary center"> Visit Our Cafe by Viewing the location</h3>
+                    <div class="button  text-center">
+                        <button class="btn1"   onclick="location.href='loc.html'">Location</button>
+                       </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <script>
+        function menu(){
+            window.open('img/me.jpg'); 
+        }
+    </script>
+    
+    <section class="contact" id="Contact">
+        <h2 class = "text-center"> Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="text" name="email" id="email" placeholder="Enter your email">
+            <input class="form-input" type="text" name="phno" id="phno" placeholder="Enter your phone number">
+           <textarea class="form-input" name="sugg" id="sugg" cols="77" rows="15" placeholder=" suggessions"></textarea>
+            <button class="btn btn-dark">Submit </button>
+        </div>
+    </section>
+
+
+   
+
+    <footer>
+        <p class="text-footer ">
+        Copyright &copy; 2021 -All rights reserved
+    </p>
+    </footer>
+    <script src="js/resp.js"></script> 
+</body>
+</html>
